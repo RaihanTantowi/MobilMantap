@@ -1,0 +1,66 @@
+CRITICAL - 2023-06-18 15:36:28 --> Too few arguments to function App\Controllers\Page::home(), 0 passed in C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Page.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2023-06-18 15:51:14 --> Invalid file: "page/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/contact.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/contact', [], true)
+ 3 APPPATH\Controllers\Page.php(33): view('page/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2023-06-18 15:54:31 --> Undefined variable: title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php', 14, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/contact', [], true)
+ 6 APPPATH\Controllers\Page.php(33): view('page/contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2023-06-18 15:54:52 --> Undefined variable: title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php', 14, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/contact', [], true)
+ 6 APPPATH\Controllers\Page.php(33): view('page/contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2023-06-18 15:55:11 --> Undefined variable: title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php', 14, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4app\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/contact', [], true)
+ 6 APPPATH\Controllers\Page.php(33): view('page/contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
+CRITICAL - 2023-06-18 16:03:31 --> syntax error, unexpected end of file
+in APPPATH\Views\page\contact.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/contact', [], true)
+ 3 APPPATH\Controllers\Page.php(46): view('page/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4app\\public\\index.php')
